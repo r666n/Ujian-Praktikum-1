@@ -1,9 +1,12 @@
+
 #include <iostream>
 
 using namespace std;
 
 int main () {
-    int b = 5;
+    int b;
+    cout << "Masukkan baris segitiga pascal: ";
+    cin >> b;
     
     for (int i = 0; i < b; i++) {
         for (int s = 0; s < b - i; s++) {
